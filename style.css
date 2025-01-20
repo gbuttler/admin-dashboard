@@ -1,18 +1,18 @@
 /*LAYOUT */
 body {
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 5fr;
 }
 
 .left-page {
   display: grid;
-
-  grid-template-rows: 8fr 2fr;
+  grid-template-rows: 4fr 1fr;
 }
 
 .left-page a {
   display: grid;
-  align-content: space-evenly;
+  align-content: space-between;
 }
 
 .bottom-links {
@@ -45,4 +45,24 @@ body {
 }
 
 .main-content {
+  display: grid;
+  grid-template-columns: 75% 25%;
 }
+
+.your-projects {
+  display: grid;
+  grid-template-rows: 5% 95%;
+}
+
+.projects {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rolling-content {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+/*COMPONENT SIZES */
