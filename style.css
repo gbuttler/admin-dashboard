@@ -1,0 +1,48 @@
+/*LAYOUT */
+body {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+.left-page {
+  display: grid;
+
+  grid-template-rows: 8fr 2fr;
+}
+
+.left-page a {
+  display: grid;
+  align-content: space-evenly;
+}
+
+.bottom-links {
+  align-content: end;
+}
+
+.right-page {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+}
+
+.upper-header {
+  display: grid;
+  grid-template-columns: 5% 70% 5% 5% 15%;
+}
+
+.lower-header {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+}
+
+.greeting {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+}
+
+.main-content {
+}
