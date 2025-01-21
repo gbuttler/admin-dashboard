@@ -1,3 +1,10 @@
+/*COLOURS*/
+:root {
+  --dark-color: #5c3f64;
+  --light-color: #dad1db;
+  --contrast-color: #5c9999;
+}
+
 /*LAYOUT */
 
 .container {
@@ -44,9 +51,6 @@
 .right-page {
   display: grid;
   grid-template-rows: 20% 80%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 15px;
 }
 
 .header {
@@ -56,17 +60,24 @@
 
 .upper-header {
   display: grid;
-  grid-template-columns: 5% 70% 5% 5% 15%;
+  grid-template-columns: 7% 68% 7% 7% 11%;
+  align-items: center;
 }
 
 .lower-header {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+  align-items: center;
 }
 
 .greeting {
   display: grid;
   grid-template-rows: 1fr 3fr;
+}
+
+.username {
+  display: grid;
+  align-self: center;
 }
 
 .main-content {
@@ -90,12 +101,74 @@
   grid-template-rows: 50% 50%;
 }
 
+button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.header i {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
 /*COMPONENT STYLING */
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
 }
 
-/* button {
-  height: 50px;
-} */
+.left-page {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.main-content {
+  background-color: var(--light-color);
+}
+
+button {
+  background-color: var(--dark-color);
+  color: white;
+  margin: 10px;
+  height: 30px;
+  width: 75px;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: var(--light-color);
+  color: black;
+}
+
+.header i {
+  font-size: 200%;
+  color: var(--contrast-color);
+}
+
+.lower-header i {
+  font-size: 280%;
+}
+
+.header i:hover {
+  color: var(--dark-color);
+}
+
+.searchbar {
+  border-radius: 10px;
+  height: 30px;
+}
+
+#hello {
+  font-size: 13px;
+}
+
+.greeting .username {
+  font-size: 25px;
+}
