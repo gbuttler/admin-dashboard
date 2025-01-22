@@ -1,43 +1,22 @@
-# admin-dashboard
+# Admin Dashboard
+
+### Technology
+
+- CSS
+- HTML
 
 ### Aims
 
 - Use CSS grid to create an admin dashboard layout
-- Create a colour palette that look cohesive
+- Create a colour palette that look cohesive and add styling effects
 - Make the dashboard responsive
-- Use flexbox where needed
+- Add CSS effects (like hover and cursor changes)to make the page feel more real
+- Import icons to use in the project
+
+### Next steps with future projects
+
+- Make the page work (with other pages and a backend)
+- Recreate it with react and vite using components
+- Have multiple colour themes using CSS
 
 _Inspired by 'The Odin Project' Full Stack - JavaScript course._
-
-#### Steps
-
-Step 1: Set up and planning
-X Set up your Git repository (refer to past projects if you need a refresher).
-X Set up your HTML and CSS files with some dummy content, just to make sure you have everything linked correctly.
-X Download a full-resolution copy of the project design file and get a general idea for how you’re going to need to lay things out in your HTML document.
-
-Step 2: Layout
-X Start by writing out the HTML elements for the sidebar, header and main-content containers.
-X In your CSS file, apply Grid properties until you have this basic layout built.
-
-Step 3: Nesting
-X Taking it one section at a time, begin nesting child elements under the parent elements in the HTML. Remember that you can keep making grid containers within grid containers.
-X In the sidebar, use more grids to lay out the navigation and branding sections.
-X In the header, use more grids to lay out the search bar, user info and buttons.
-X For the main-content, use more grids to lay out the projects, announcements and trending items.
-X Fill out some dummy content and placeholder images so you can position all of your grid items.
-
-Step 4: Gather assets
-Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
-All of the icons and more can be downloaded as SVGs from Material Design Icons.
-Choose your own fonts! The design example uses Roboto, which is available with Google fonts. (You may want to review the More Text Styles Lesson for information about how to include external fonts in your projects).
-
-Step 5: Some tips!
-When building the layout, apply background colors or borders to your containers to help you visualize your grid.
-It’s up to you whether to use pixels, fr units or both for your grid tracks.
-This project does not have to be responsive, but if you’d like to you can expand or shrink the project cards section when resizing the browser window.
-You don’t have to make a pixel perfect match with the design example. Consider this an opportunity to practice your CSS skills with your own designs.
-Don’t forget to push your finished dashboard to GitHub. Use GitHub Pages to publish it to the world!
-
-Step 6: Section feedback
-Before you move on, we would love it if you could submit your feedback on the Intermediate HTML and CSS course.
