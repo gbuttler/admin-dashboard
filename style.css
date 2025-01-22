@@ -93,14 +93,17 @@
 
 .projects {
   display: grid;
-  grid-template-rows: 3 (minmax(90px, min-content));
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 1em;
+  align-items: center;
 }
 
 .rolling-content {
   display: grid;
   grid-template-rows: 50% 50%;
+  gap: 1em;
+  padding: 1em;
 }
 
 button {
@@ -113,6 +116,10 @@ button {
   display: grid;
   justify-content: center;
   align-items: center;
+}
+
+.single-friend {
+  display: grid;
 }
 
 /*COMPONENT STYLING */
@@ -128,6 +135,10 @@ button {
 .left-page {
   background-color: var(--dark-color);
   color: white;
+}
+
+.dashboarddiv:hover {
+  color: var(--contrast-color);
 }
 
 .main-content {
@@ -147,6 +158,11 @@ button {
 button:hover {
   background-color: var(--light-color);
   color: black;
+}
+
+.header {
+  position: relative;
+  box-shadow: 3px 3px 10px var(--dark-color);
 }
 
 .header i {
@@ -175,6 +191,7 @@ button:hover {
 
 .greeting .username {
   font-size: 25px;
+  font-weight: bold;
 }
 
 .ind-project {
@@ -184,6 +201,7 @@ button:hover {
   padding-top: 20px;
   padding-right: 20px;
   border-radius: 8px;
+  box-shadow: 3px 3px 10px var(--dark-color);
 }
 
 .ind-project p {
@@ -198,7 +216,7 @@ button:hover {
 
 .project-text {
   font-size: 15px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .ind-project .project-icons {
@@ -207,4 +225,60 @@ button:hover {
   grid-template-columns: 80% 10% 10%;
   justify-items: end;
   align-items: end;
+}
+
+.ind-project i:hover {
+  color: var(--dark-color);
+}
+
+.individual-announcements {
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-color);
+  box-shadow: 3px 3px 10px var(--dark-color);
+}
+
+.announcements-heading {
+  padding-bottom: 20px;
+}
+
+.single-announcement {
+  border-bottom: 1px solid var(--contrast-color);
+  border-top: 1px solid var(--contrast-color);
+}
+
+.announcement-name {
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.announcement-text {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+
+.individual-friends {
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-color);
+  box-shadow: 3px 3px 10px var(--dark-color);
+}
+
+.friends-heading {
+  padding-bottom: 20px;
+}
+
+.single-friend {
+  border-bottom: 1px solid var(--contrast-color);
+  border-top: 1px solid var(--contrast-color);
 }
