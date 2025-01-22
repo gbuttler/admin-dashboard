@@ -37,7 +37,7 @@
   display: grid;
   grid-template-columns: 15% 85%;
   padding-bottom: 50px;
-  align-content: center;
+  align-items: center;
 }
 
 .dashboarddiv {
@@ -120,6 +120,11 @@ button {
 
 .single-friend {
   display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.single-friend i {
+  align-content: center;
 }
 
 /*COMPONENT STYLING */
@@ -130,6 +135,14 @@ button {
   font-optical-sizing: auto;
   font-weight: 300px;
   font-style: normal;
+}
+
+a {
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
 }
 
 .left-page {
@@ -153,6 +166,7 @@ button {
   width: 75px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -281,4 +295,16 @@ button:hover {
 .single-friend {
   border-bottom: 1px solid var(--contrast-color);
   border-top: 1px solid var(--contrast-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.single-friend i {
+  color: var(--dark-color);
+  justify-items: center;
+  padding-left: 3px;
+}
+
+.single-friend i:hover {
+  color: var(--contrast-color);
 }
